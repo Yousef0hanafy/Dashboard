@@ -332,6 +332,8 @@ a{
     font-size: 12px;
     padding: 3px 5px;
     margin-left: auto;
+    width: 90px;
+    text-align: center;
 }
 @media (max-width: 767px) {
     .latest .box span{
@@ -509,8 +511,8 @@ a{
 .project-table .responsive-table{
     overflow-x: auto;
 }
-.project-table table{
-    max-width: 100%;
+.project-table .responsive-table table{
+    width: 100%;
     min-width: 1000px;
     border-spacing: 0;
 }
@@ -998,7 +1000,7 @@ a{
     margin-right: 20px;
 }
 @media (max-width: 767px) {
-    .wrapper{
+    .courses .wrapper{
         grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
@@ -1071,7 +1073,7 @@ a{
     margin-right: 20px;
 }
 @media (max-width: 767px) {
-    .wrapper{
+    .friends .wrapper{
         grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
@@ -1171,7 +1173,7 @@ a{
     margin-right: 20px;
 }
 @media (max-width: 767px) {
-    .files .files-content .file{
+    .files .files-content{
         grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
